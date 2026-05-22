@@ -50,7 +50,7 @@ You will also learn how to control traffic flow using **Network Security Groups 
    - Let Azure create a new **Virtual Network** and **Subnet**
    - VM Size recommendation: `Standard_B2s` or `Standard_D2s_v3`
 
-   ![Windows 10 VM Creation](screenshots/01-windows-vm-creation.png)
+   
 
 4. **Create a Linux (Ubuntu) Virtual Machine**
    - Use the **same Resource Group**
@@ -58,7 +58,7 @@ You will also learn how to control traffic flow using **Network Security Groups 
    - Authentication Type: **Password**
    - Username: `labuser` 
 
-   ![Ubuntu VM Creation](screenshots/02-ubuntu-vm-creation.png)
+   
 
 5. Verify both VMs are in the **same Virtual Network / Subnet**
 
@@ -77,6 +77,8 @@ You will also learn how to control traffic flow using **Network Security Groups 
 
 8. Open Wireshark and start a packet capture.
 
+<img width="972" height="662" alt="image" src="https://github.com/user-attachments/assets/8b4511ec-0802-421d-8db5-bde3a27bea5e" />
+
 9. Apply filter: `icmp`
 
 10. Get the private IP of your Ubuntu VM and ping it from the Windows VM.
@@ -84,7 +86,7 @@ You will also learn how to control traffic flow using **Network Security Groups 
     <img width="1488" height="900" alt="image" src="https://github.com/user-attachments/assets/0b35fd55-e775-4f5b-9549-0ab3df246c06" />
 
 
-11. Ping a public site:
+12. Ping a public site:
     ```powershell
     ping www.google.com
 
