@@ -56,7 +56,7 @@ You will also learn how to control traffic flow using **Network Security Groups 
    - Use the **same Resource Group**
    - Use the **same Virtual Network and Subnet**
    - Authentication Type: **Password**
-   - Username: `labuser` (recommended)
+   - Username: `labuser` 
 
    ![Ubuntu VM Creation](screenshots/02-ubuntu-vm-creation.png)
 
@@ -91,12 +91,23 @@ You will also learn how to control traffic flow using **Network Security Groups 
 Part 3: Advanced Traffic Analysis
 Configuring a Firewall (Network Security Group)
 
+
+
 Start a continuous ping:PowerShellping <ubuntu-private-ip> -t
 Go to the Network Security Group of the Ubuntu VM:
 Add rule to Deny inbound ICMP
+
+<img width="1871" height="928" alt="image" src="https://github.com/user-attachments/assets/7d35a806-4831-4265-a26b-a114dd4b4a91" />
+
 Observe ping failing
+
+<img width="1107" height="100" alt="image" src="https://github.com/user-attachments/assets/b272abfc-6c9f-444b-8d43-77e53e8526d1" />
+
+
 Re-enable ICMP
 Observe ping resuming
+<img width="1094" height="331" alt="image" src="https://github.com/user-attachments/assets/5dc1bc0e-f235-43b2-93ad-06a4afb31181" />
+
 
 
 Observe SSH Traffic
