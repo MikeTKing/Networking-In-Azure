@@ -41,6 +41,9 @@ You will also learn how to control traffic flow using **Network Security Groups 
 
 2. **Create a Resource Group**
    - Name example: `Networking-Lab-RG`
+  
+<img width="1872" height="918" alt="image" src="https://github.com/user-attachments/assets/4c5ff81f-f771-4bc8-a4de-1dd801f31dcc" />
+
 
 3. **Create a Windows 10 Virtual Machine**
    - Select the Resource Group created above
@@ -59,6 +62,9 @@ You will also learn how to control traffic flow using **Network Security Groups 
 
 5. Verify both VMs are in the **same Virtual Network / Subnet**
 
+<img width="1876" height="924" alt="image" src="https://github.com/user-attachments/assets/4775045e-7f5e-4655-9a7e-480c43b6cf78" />
+
+
 > 💡 **Important**: Do not delete the VMs after this part. Keep them running for Part 2.
 
 ---
@@ -75,7 +81,8 @@ You will also learn how to control traffic flow using **Network Security Groups 
 
 10. Get the private IP of your Ubuntu VM and ping it from the Windows VM.
 
-    ![ICMP Traffic in Wireshark](screenshots/03-icmp-traffic.png)
+    <img width="1488" height="900" alt="image" src="https://github.com/user-attachments/assets/0b35fd55-e775-4f5b-9549-0ab3df246c06" />
+
 
 11. Ping a public site:
     ```powershell
@@ -90,7 +97,7 @@ Add rule to Deny inbound ICMP
 Observe ping failing
 Re-enable ICMP
 Observe ping resuming
-<img src="screenshots/04-nsg-icmp-rule.png" alt="NSG Rule Modification">
+
 
 Observe SSH Traffic
 
