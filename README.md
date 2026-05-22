@@ -81,7 +81,10 @@ You will also learn how to control traffic flow using **Network Security Groups 
 
 9. Apply filter: `icmp`
 
-10. Get the private IP of your Ubuntu VM and ping it from the Windows VM.
+<img width="1891" height="961" alt="image" src="https://github.com/user-attachments/assets/36731a32-5875-4303-8af4-6a8b36f65e15" />
+
+
+11. Get the private IP of your Ubuntu VM and ping it from the Windows VM.
 
     <img width="1488" height="900" alt="image" src="https://github.com/user-attachments/assets/0b35fd55-e775-4f5b-9549-0ab3df246c06" />
 
@@ -92,8 +95,6 @@ You will also learn how to control traffic flow using **Network Security Groups 
 
 Part 3: Advanced Traffic Analysis
 Configuring a Firewall (Network Security Group)
-
-
 
 Start a continuous ping:PowerShellping <ubuntu-private-ip> -t
 Go to the Network Security Group of the Ubuntu VM:
