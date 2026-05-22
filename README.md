@@ -1,3 +1,7 @@
+
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/c2208ee7-df3c-4e8c-b332-dea32edd1235" />
+
+
 # Performing Network Activities in Azure
 
 **Part 1 of the "Networking in Azure" Lab Series**
